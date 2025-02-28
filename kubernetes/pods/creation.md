@@ -1,6 +1,6 @@
-## ¿Que es un pod?
+# ¿Que es un pod?
 
-Es la **unidad mínima de despliegue en Kubernetes** que encapsulan uno o más contenedores. Los contenedores de un pod comparte la misma red, almacenamiento y el mismo ciclo:
+Es la **unidad mínima de despliegue en Kubernetes** que encapsulan uno o más contenedores. Los contenedores de un pod comparte la misma red, almacenamiento y el mismo ciclo de vida:
 
 - Red: Todos los contenedores dentro de un Pod comparten la misma dirección IP y puerto.
 - Almacenamiento: Los contenedores pueden compartir volúmenes montados.
@@ -10,7 +10,7 @@ Kubernetes no gestiona contenedores directamente, sino **Pods**.
 
 ### Forma imperativa (CLI)
 
-**Crear un pod de nginx**
+* **Crear un pod de nginx**
 
 ```
 kubectl run nginx-nodeport --image=nginx --restart=Never --port=80
