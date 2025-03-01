@@ -6,12 +6,4 @@ Es la **unidad mínima de despliegue en Kubernetes** que encapsulan uno o más c
 - Almacenamiento: Los contenedores pueden compartir volúmenes montados.
 - Ciclo de vida: Los contenedores dentro de un Pod se crean, ejecutan y eliminan juntos.
 
-Kubernetes no gestiona contenedores directamente, sino **Pods**.
-
-### Forma imperativa (CLI)
-
-* **Crear un pod de nginx**
-
-```
-kubectl run nginx-nodeport --image=nginx --restart=Never --port=80
-```
+Kubernetes no gestiona contenedores directamente, sino **pods**.
