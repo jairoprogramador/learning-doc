@@ -1,0 +1,5 @@
+# Inicio y salida de sesión
+
+Un terminal de texto disponible solicitará un nombre de usuario (con la cadena **login**:) y contraseña. Al escribir la contraseña no se mostrará nada en el terminal (ni siquiera un * para indicar que has escrito algo) para evitar que otros vean tu contraseña. Después de haber iniciado sesión en el sistema puedes realizar operaciones básicas.
+
+Una vez iniciada la sesión (iniciando sesión en un terminal de texto o mediante un programa de terminal gráfico), también puedes conectarte e iniciar sesión en sistemas remotos mediante Secure SHell (SSH). Por ejemplo, escribiendo ssh student@remote-server.com, SSH se conectaría de forma segura al equipo remoto (remote-server.com) y abriría una ventana de terminal de línea de comandos para estudiante(student), en la que se podría conectar utilizando una contraseña (como ocurre con los inicios de sesión normales) o una clave criptográfica que permite iniciar sesión sin proporcionar una contraseña para verificar la identidad.
